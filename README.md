@@ -14,4 +14,4 @@
 
 
 <br>效果<br>
-![](https://github.com/luckyxiangfeng/AutoTextViewCellDemo/blob/master/shili.gif?raw=true)
+![](https://github.com/luckyxiangfeng?raw=true)
