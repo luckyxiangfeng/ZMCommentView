@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  ZMCommentView
+//
+//  Created by Kennith.Zeng on 2018/8/29.
+//  Copyright © 2018年 Kennith.Zeng. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "ZMColorDefine.h"
+#import "Masonry.h"
+#import "UIView+QJLayout.h"
+
+#endif /* PrefixHeader_pch */
