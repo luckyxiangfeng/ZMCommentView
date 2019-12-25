@@ -7,6 +7,9 @@
 
 4、一句代码展示全部评论
 
+有什么问题，可以再issues告知我，欢迎点小星星！
+
+
 使用方式：
 
  [[ZMCusCommentManager shareManager] showCommentWithSourceId:nil];
@@ -14,4 +17,8 @@
 
 
 <br>效果<br>
-![](https://github.com/luckyxiangfeng?raw=true)
+![示例图1](https://github.com/luckyxiangfeng/ZMCommentView/blob/master/ZMCommentView/ZMCommentView/Photo/photo_1.png)
+![示例图2](https://github.com/luckyxiangfeng/ZMCommentView/blob/master/ZMCommentView/ZMCommentView/Photo/photo_2.png)
+![示例图3](https://github.com/luckyxiangfeng/ZMCommentView/blob/master/ZMCommentView/ZMCommentView/Photo/photo_3.png)
+
+
