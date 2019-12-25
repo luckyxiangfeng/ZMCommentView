@@ -17,8 +17,8 @@
 
 
 <br>效果<br>
-![示例图1](https://github.com/luckyxiangfeng/ZMCommentView/blob/master/ZMCommentView/ZMCommentView/Photo/photo_1.png)
-![示例图2](https://github.com/luckyxiangfeng/ZMCommentView/blob/master/ZMCommentView/ZMCommentView/Photo/photo_2.png)
-![示例图3](https://github.com/luckyxiangfeng/ZMCommentView/blob/master/ZMCommentView/ZMCommentView/Photo/photo_3.png)
+![示例图1](https://github.com/luckyxiangfeng/ZMCommentView/blob/master/ZMCommentView/CommentViewDemo/Photo/photo_1.png)
+![示例图2](https://github.com/luckyxiangfeng/ZMCommentView/blob/master/ZMCommentView/CommentViewDemo/Photo/photo_2.png)
+![示例图3](https://github.com/luckyxiangfeng/ZMCommentView/blob/master/ZMCommentView/CommentViewDemo/Photo/photo_3.png)
 
 
