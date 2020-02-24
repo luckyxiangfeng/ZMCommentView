@@ -60,8 +60,9 @@
         @strongify(self)
         [self hideView];
     };
-    _commentListView.sendBtnBlock = ^{
+    _commentListView.sendBtnBlock = ^(NSString *text){
         @strongify(self)
+        NSLog(@"%@",text);
         [self endEdit];
     };
     _commentListView.replyBtnBlock = ^{
@@ -83,6 +84,7 @@
 #pragma mark - action
 - (void)endEdit{
     [self endEditing:YES];
+
     self.commentListView.toolView.textView.placeholder = @"你也来聊两句吧";
     [UIView animateWithDuration:0.3 animations:^{
         self.commentListView.toolView.frameHeight = ZMCusComentBottomViewHeight+SAFE_AREA_BOTTOM;

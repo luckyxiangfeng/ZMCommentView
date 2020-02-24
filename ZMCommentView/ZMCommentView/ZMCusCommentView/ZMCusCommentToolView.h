@@ -10,7 +10,7 @@
 #import "ZMPlaceholderTextView.h"
 #define ZMCusCommentEditToolViewHeight 60
 @interface ZMCusCommentToolView : UIView
-@property (nonatomic, copy) void(^sendBtnBlock)(void);
+@property (nonatomic, copy) void(^sendBtnBlock)(NSString*text);
 @property (nonatomic, copy) void(^changeTextBlock)(NSString *text,CGRect frame);
 @property (nonatomic, strong) ZMPlaceholderTextView *textView;
 @property (nonatomic, assign) CGFloat keyboardHeight;

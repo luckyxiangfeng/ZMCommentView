@@ -64,10 +64,10 @@
 
     CGFloat toolViewY = SCREEN_HEIGHT-ZMCusComentBottomViewHeight-SAFE_AREA_BOTTOM-STATUS_AND_NAV_BAR_HEIGHT;
     _toolView = [[ZMCusCommentToolView alloc] initWithFrame:CGRectMake(0, toolViewY, SCREEN_WIDTH, ZMCusComentBottomViewHeight+STATUS_BAR_HEIGHT)];
-    _toolView.sendBtnBlock = ^{
+    _toolView.sendBtnBlock = ^(NSString *text){
         @strongify(self)
         if (self.sendBtnBlock) {
-            self.sendBtnBlock();
+            self.sendBtnBlock(text);
         }
     };
     [self addSubview:_toolView];

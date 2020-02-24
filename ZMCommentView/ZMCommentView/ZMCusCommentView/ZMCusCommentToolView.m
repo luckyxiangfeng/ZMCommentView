@@ -75,10 +75,11 @@
 }
 
 - (void)sendBtnAction{
-    [self resetView];
     if (self.sendBtnBlock) {
-        self.sendBtnBlock();
+        self.sendBtnBlock(self.textView.text);
     }
+    [self resetView];
+
 }
 - (void)resetView{
     

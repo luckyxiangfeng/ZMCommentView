@@ -13,7 +13,7 @@
 
 @interface ZMCusCommentListView : UIView
 @property (nonatomic, strong) ZMCusCommentToolView *toolView;
-@property (nonatomic, copy) void(^sendBtnBlock)(void);
+@property (nonatomic, copy) void(^sendBtnBlock)(NSString *text);
 @property (nonatomic, copy) void(^closeBtnBlock)(void);
 @property (nonatomic, copy) void(^replyBtnBlock)(void);
 @end
