@@ -7,7 +7,6 @@
 //
 
 #import "ZMCusCommentListView.h"
-#import "ZMCusCommentBottomView.h"
 #import "ZMCusCommentListTableHeaderView.h"
 #import "ZMCusCommentListContentCell.h"
 #import "ZMCusCommentListReplyContentCell.h"
@@ -15,7 +14,6 @@
 
 
 @interface ZMCusCommentListView()<UITableViewDelegate,UITableViewDataSource>
-@property (nonatomic, strong) ZMCusCommentBottomView *bottomView;
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) ZMCusCommentListTableHeaderView *headerView;
 @property (nonatomic, assign) BOOL isSelect;

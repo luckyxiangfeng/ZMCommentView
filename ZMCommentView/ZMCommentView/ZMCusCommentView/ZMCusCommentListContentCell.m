@@ -31,7 +31,6 @@
 
 - (void)layoutUI{
 
-    
     if (!_headImageView) {
         _headImageView = [[UIImageView alloc] init];
         [_headImageView setImage:[UIImage imageNamed:@"head_list_small"]];

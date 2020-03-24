@@ -13,7 +13,6 @@
 		F7A14AFB21379044002BF69C /* ZMCusCommentToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A14AF021379044002BF69C /* ZMCusCommentToolView.m */; };
 		F7A14AFC21379044002BF69C /* ZMCusCommentListTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A14AF121379044002BF69C /* ZMCusCommentListTableHeaderView.m */; };
 		F7A14AFD21379044002BF69C /* ZMCusCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A14AF321379044002BF69C /* ZMCusCommentView.m */; };
-		F7A14AFE21379044002BF69C /* ZMCusCommentBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A14AF421379044002BF69C /* ZMCusCommentBottomView.m */; };
 		F7A14AFF21379044002BF69C /* ZMCusCommentListView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A14AF521379044002BF69C /* ZMCusCommentListView.m */; };
 		F7A14B05213790AD002BF69C /* ZMPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A14B04213790AD002BF69C /* ZMPlaceholderTextView.m */; };
 		F7D925A321364C860025DBC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D925A221364C860025DBC4 /* AppDelegate.m */; };
@@ -30,7 +29,6 @@
 		A4A4A706940BE9FF8AABFB0D /* Pods-ZMCommentView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMCommentView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZMCommentView/Pods-ZMCommentView.debug.xcconfig"; sourceTree = "<group>"; };
 		BE77E92FAB2A296F2475038F /* libPods-ZMCommentView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZMCommentView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6791F3324595FAC2390E86B /* Pods-ZMCommentView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMCommentView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZMCommentView/Pods-ZMCommentView.release.xcconfig"; sourceTree = "<group>"; };
-		F7A14AEB21379044002BF69C /* ZMCusCommentBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMCusCommentBottomView.h; sourceTree = "<group>"; };
 		F7A14AEC21379044002BF69C /* ZMCusCommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMCusCommentView.h; sourceTree = "<group>"; };
 		F7A14AED21379044002BF69C /* ZMCusCommentListContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMCusCommentListContentCell.m; sourceTree = "<group>"; };
 		F7A14AEE21379044002BF69C /* ZMCusCommentListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMCusCommentListView.h; sourceTree = "<group>"; };
@@ -39,7 +37,6 @@
 		F7A14AF121379044002BF69C /* ZMCusCommentListTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMCusCommentListTableHeaderView.m; sourceTree = "<group>"; };
 		F7A14AF221379044002BF69C /* ZMCusCommentListContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMCusCommentListContentCell.h; sourceTree = "<group>"; };
 		F7A14AF321379044002BF69C /* ZMCusCommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMCusCommentView.m; sourceTree = "<group>"; };
-		F7A14AF421379044002BF69C /* ZMCusCommentBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMCusCommentBottomView.m; sourceTree = "<group>"; };
 		F7A14AF521379044002BF69C /* ZMCusCommentListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMCusCommentListView.m; sourceTree = "<group>"; };
 		F7A14AF621379044002BF69C /* ZMCusCommentListReplyContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMCusCommentListReplyContentCell.h; sourceTree = "<group>"; };
 		F7A14AF721379044002BF69C /* ZMCusCommentListTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMCusCommentListTableHeaderView.h; sourceTree = "<group>"; };
@@ -102,8 +99,6 @@
 				F7A14AF521379044002BF69C /* ZMCusCommentListView.m */,
 				F7A14AF821379044002BF69C /* ZMCusCommentToolView.h */,
 				F7A14AF021379044002BF69C /* ZMCusCommentToolView.m */,
-				F7A14AEB21379044002BF69C /* ZMCusCommentBottomView.h */,
-				F7A14AF421379044002BF69C /* ZMCusCommentBottomView.m */,
 				F7A14AF221379044002BF69C /* ZMCusCommentListContentCell.h */,
 				F7A14AED21379044002BF69C /* ZMCusCommentListContentCell.m */,
 				F7A14AF621379044002BF69C /* ZMCusCommentListReplyContentCell.h */,
@@ -265,7 +260,6 @@
 				F7A14AFC21379044002BF69C /* ZMCusCommentListTableHeaderView.m in Sources */,
 				F7A14AFA21379044002BF69C /* ZMCusCommentListReplyContentCell.m in Sources */,
 				F7A14AF921379044002BF69C /* ZMCusCommentListContentCell.m in Sources */,
-				F7A14AFE21379044002BF69C /* ZMCusCommentBottomView.m in Sources */,
 				F7A14AFB21379044002BF69C /* ZMCusCommentToolView.m in Sources */,
 				F7A14AFD21379044002BF69C /* ZMCusCommentView.m in Sources */,
 				F7D925A321364C860025DBC4 /* AppDelegate.m in Sources */,
